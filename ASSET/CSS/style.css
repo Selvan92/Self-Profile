@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    
+}
+header {
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    box-shadow: 0 2px 8px rgb(251, 250, 250);
+    background-color: rgb(27, 16, 79);
+   
+}
+
+    header .employee {    
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    flex: 30%;
+    color: aqua;
+    font-size: 45px;
+}
+
+header li {
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding:20px 80px 50px 20px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(233, 225, 225);
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: #b2dfdb;
+}
+
+.subtitle {
+    width: 100%;
+    height: 20vh;
+    background-image: url(/ASSET/CSS/Bg-Subtitle.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display:flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 180%;
+    justify-content: end;
+    padding-right: 6%;
+}
+
+.aboutme{
+    display: flex;
+    height:auto;
+    padding-top: 20px;
+    
+  }
+  
+  .aboutme-heading {
+    flex:25%;
+    flex-wrap: wrap;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    
+
+    
+  }
+  .content-aboutme {
+    flex: 75%;
+    padding: 20px;
+    background-color: antiquewhite;
+    font-size: 18px;
+    
+  }
+.work {
+    padding-top: 30px; 
+        display: flex;        
+        height:100px;
+        padding-top: 20px;
+       
+}
+.work a:hover {
+    color: #eef3f3;
+}
+
+.work-heading {
+        flex:25%;
+        flex-wrap: wrap;
+        color:blue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 30px;
+} 
+
+
+  .content-studyguide {
+    flex: 75%;
+    padding: 60px;
+    background-color: antiquewhite;
+    font-size: 35px;
+    text-align:left;
+    color: antiquewhite;
+    background: url(/ASSET/CSS/Snip20220825_5.png);
+  }
+
+  .marketingsite {
+    margin-top: 30px;
+    
+        display: flex;
+        height:100px;
+        padding-top: 20px;
+  }
+        .marketingsite a:hover {
+            color: #b2dfdb;
+        }
+  
+        .marketingsite-heading {
+            flex:25%;
+            flex-wrap: wrap;
+            color:rgb(12, 12, 15);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 30px;
+}
+
+  .marketingsite-content {
+    flex: 75%;
+    padding: 60px;    
+    font-size: 35px;
+    text-align:left;
+    color: rgb(252, 251, 249);
+    background: url(/ASSET/CSS/Snip20220825_6.png);
+  }  
+
+  .profile {
+    margin-top: 30px;    
+        display: flex;
+        height:200px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        margin-bottom: 30px;
+  }
+  .profile a:hover {
+    color: #eef3f3;
+}
+
+        .profile-heading {
+            flex:25%;
+            flex-wrap: wrap;
+            color:blue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            text-align:center;
+            padding-top: 30px;
+}
+
+  .profile-content {
+    flex: 75%;
+    padding: 60px;   
+    font-size: 35px;
+    text-align:left;
+    color: rgb(250, 249, 247);
+    background: url(/ASSET/CSS/Snip20220825_7.png);
+  }  
+
+
+
+  footer {
+    display: flex;
+    height: auto;
+    
+    box-shadow: 0 2px 8px rgb(251, 250, 250);
+    background-color: rgb(78, 68, 125);
+    margin:30px 0px;
+    
+   
+}
+
+    footer .contactinfo {    
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px 20px 30px;
+    flex: 30%;
+    color: aqua;
+    font-size: 45px;
+}
+
+footer li {
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding:20px 80px 50px 20px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(233, 225, 225);
+    transition: all 0.3s ease 0s;
+}
+
+footer a:hover {
+    color: #b2dfdb;
+}
+
+  
+
+    
+    
+    /* footer h1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    flex: 30%;
+    height:auto;
+    font-size: 35px;
+    font-weight: bold;   
+    color:blue;     
+    
+    }
+
+    footer .footernav {
+        
+        text-align: center;
+        flex: 70%;
+        
+        padding-top: 50px;
+        padding-right: 10px;     
+    }
+    .footernav a 
+    {
+    padding-right: 40px;
+    color: aqua;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    color: blue;
+    font-weight: bold;
+    align-items: right;
+    
+    } */
+
+
