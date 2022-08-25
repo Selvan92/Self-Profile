@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    
+}
+
+body {
+    display:flex
+}
+
+header {
+flex-direction: row;
+width: 100%;
+top:0%;
+height: 100px;
+background-color: rgb(19, 13, 49);
+color: aliceblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-top: 1%;
+
+}
+
+header .employee {
+font-size: 45px;
+float: left;
+padding-left: 40px;
+color: aqua;
+
+}
+
+
+header .navigation {
+    position: relative;
+    font-size: 35px;
+    float: right;  
+    padding-right: 40px;    
+}
+.navigation a {
+padding-right: 30px;
+color: aqua;
+}
